@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  background-color: rgb(16, 156, 167);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  margin-bottom: 60px;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: cursive;
+}
+.container {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to top, rgb(168, 211, 211), rgb(16, 95, 100));
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(73, 62, 62);
+  border: none;
+}
+.Text {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+#fromText {
+  width: 100%;
+  height: 240px;
+  margin-left: 8px;
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+#toText {
+  width: 100%;
+  height: 240px;
+  margin-right: 8px;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.selectArea {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(9, 94, 97);
+  margin-top: 20px;
+}
+.select1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-right: 5px solid white;
+}
+
+.select2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-left: 5px;
+}
+
+#fselect {
+  padding: 10px 40px 10px 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#sselect {
+  padding: 10px 40px 10px 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#transfer {
+  width: 500px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(9, 89, 95);
+  font-size: 20px;
+}
+.speaker {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.speaker:hover {
+  transform: scale(130%);
+}
+.copy {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.copy:hover {
+  transform: scale(130%);
+}
+#transfer {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+#transfer:hover {
+  transform: scale(105%);
+}
